@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rake', '~> 10.0'
+gem 'rake', '~> 12.0'
 gem 'activerecord', ENV['AR'] || [">= 4.2.7", "< 5.1.0"]
 gem 'railties', ENV['AR'] || [">= 4.2.7", "< 5.1.0"]
 
